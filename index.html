@@ -3,30 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="css/index.css">
-
-  <title>Square Button</title>
+    <title>Formulário com Caixas de Texto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Seu botão quadrado com a classe "square-button" -->
-  <a href="pages/taskMaker.html" class="square-button">criar tarefa</a>
-
-  <div id="lista-container"></div>
-
-  <script src="js/index.js"></script>
-
-</body>
-</html>
+    <div class="form-container">
+        <input type="datetime-local" placeholder="inicio" id="inicioInput">
+        <input type="datetime-local" placeholder="fim" id="fimInput">
+        <input type="text" placeholder="tarefa" id="tarefaInput">
+        <input type="text" placeholder="pessoa" id="pessoaInput">
+        <button type="submit">Enviar</button>
+    </div>
 
 </body>
 </html>

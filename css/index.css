@@ -1,39 +1,25 @@
-/* Adicione estilos básicos ao botão */
-.square-button {
-    display: inline-block;
-    padding: 10px; /* Ajuste o padding conforme necessário */
-    text-align: center;
-    text-decoration: none;
-    font-size: 13px;
-    cursor: pointer;
-    border: 1px solid #333; /* Cor da borda */
-    background-color: #4CAF50; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    border-radius: 10px; /* Adiciona cantos arredondados */
-    width: 10%; /* Define a largura do botão como metade do container */
-    box-sizing: border-box; /* Garante que a largura inclui padding e borda */
-  }
-  
-  /* Adicione um efeito de hover ao botão */
-  .square-button:hover {
-    background-color: #45a049; /* Cor de fundo mais escura no hover */
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 
-/* Adicione estilos para a lista */
-#lista-container {
-    font-family: Arial, sans-serif;
-  }
-  
-  .item-lista {
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
-    cursor: pointer;
-  }
-  
-  .item-lista:hover {
-    background-color: #e5e5e5;
-  }
-  
+.form-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
